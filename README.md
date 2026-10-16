@@ -18,11 +18,6 @@ verified.
 | Mux | Decides which PC input to pass | [Test case, waveform, calculation, or inspection] |
 | Adder or Incrementer | Increments PC by 1 each cycle | [Test case, waveform, calculation, or inspection] |
 | Final IF Stage | Ties all 5 minor modules together into overall Instruction Fetch | [Test case, waveform, calculation, or inspection] |
-## Architecture
-### Timing or Behavioral Summary
-Save diagrams in the repository's `images/` folder. Use relative paths so they
-display on GitHub.
-![Timing Diagram](images/[timing-diagram-filename].png)
 ## Implementation
 ### Source Code
 | File | Description |
@@ -48,13 +43,12 @@ Verification covers:
 - Reset and initialization
 - Clock timing
 ### Testbench and Waveform
-Save screenshots and waveform images in the repository's `images/` folder.
-![Testbench or waveform](images/[testbench-screenshot-filename].png)
-The testbench source is available [*here*](LINK_TO_TESTBENCH_CODE).
+Screenshots and waveform images are saved in the repository's `Images/` folder.
+The testbench source is available [*here*](https://github.com/Christopher-Jones-EE/Instruction_Fetch/blob/main/Testbench-Files/I_FETCHTB.v).
 ### Results
 | Test Case | Expected Result | Observed Result | Status |
 |---|---|---|---|
-| TC-01 — Reset | Latch values and PC to 0 | Matched expected | Pass |
+| TC-01 — Reset | Latch values and PC reset to 0 | Matched expected | Pass |
 | TC-02 — PC external | PC and latch values lock at external PC | Matched expected | Pass |
 | TC-03 — PC incrementer | PC increments by 1 each cycle, latch values follow | Matched expected | Pass |
 ## Reproduction Instructions
