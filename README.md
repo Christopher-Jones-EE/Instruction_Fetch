@@ -27,14 +27,14 @@ display on GitHub.
 ### Source Code
 | File | Description |
 |---|---|
-| [`mux2to1.v`](LINK_TO_IMPLEMENTATION_CODE) | Source code for 2 to 1 multiplexer |
-| [`pc.v`](LINK_TO_COMPONENT_CODE) | Source code for Program Counter |
-| [`incrementer.v`](LINK_TO_TESTBENCH_CODE) | Source code for Incrementer |
-| [`half_adder.v`](LINK_TO_TESTBENCH_CODE) | Source code for Half Adder |
-| [`instrMem.v`](LINK_TO_TESTBENCH_CODE) | Source code for Instruction Memory |
-| [`ifldLatch.v`](LINK_TO_TESTBENCH_CODE) | Source code for IF/LD Latch |
-| [`fetch.v`](LINK_TO_TESTBENCH_CODE) | Source code for Fetch |
-| [`I_FETCHTB.v`](LINK_TO_TESTBENCH_CODE) | Testbench code for Fetch module. |
+| [`mux2to1.v`](https://github.com/Christopher-Jones-EE/Instruction_Fetch/blob/main/Source-Files/mux2to1.v) | Source code for 2 to 1 multiplexer |
+| [`pc.v`](https://github.com/Christopher-Jones-EE/Instruction_Fetch/blob/main/Source-Files/pc.v) | Source code for Program Counter |
+| [`incrementer.v`](https://github.com/Christopher-Jones-EE/Instruction_Fetch/blob/main/Source-Files/incrementer.v) | Source code for Incrementer |
+| [`half_adder.v`](https://github.com/Christopher-Jones-EE/Instruction_Fetch/blob/main/Source-Files/half_adder.v) | Source code for Half Adder |
+| [`instrMem.v`](https://github.com/Christopher-Jones-EE/Instruction_Fetch/blob/main/Source-Files/instrMem.v) | Source code for Instruction Memory |
+| [`ifldLatch.v`](https://github.com/Christopher-Jones-EE/Instruction_Fetch/blob/main/Source-Files/ifldLatch.v) | Source code for IF/LD Latch |
+| [`fetch.v`](https://github.com/Christopher-Jones-EE/Instruction_Fetch/blob/main/Source-Files/fetch.v) | Source code for Fetch |
+| [`I_FETCHTB.v`](https://github.com/Christopher-Jones-EE/Instruction_Fetch/blob/main/Testbench-Files/I_FETCHTB.v) | Testbench code for Fetch module. |
 ### Implementation Notes
 - Instruction Memory has 256 addresses.
 - Mux uses 0 for incrementer and 1 for external. Adder, Mux, Fetch are reusable.
@@ -75,11 +75,11 @@ INFO: [USF-XSim-96] XSim completed. Design snapshot 'I_FETCHTB_behav' loaded.
 ```text
 .
 ├── README.md
-├── images/
+├── Images/
 │ ├── [timing-diagram-filename].png
 │ └── [testbench-screenshot-filename].png
-├── [source-files]
-└── [testbench-files]
+├── [Source-Files]
+└── [Testbench-Files]
 ```
 ## Known Issues and Future Improvements
 - Disconnected external PC, only 256 addresses, no way to write to addresses, uninitialized memory addresses 
