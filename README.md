@@ -12,12 +12,12 @@ verified.
 ## Requirements
 | Requirement | Description | Verification Method |
 |---|---|---|
-| Latch | Passes the data through on the clock cycle | [Test case, waveform, calculation, or inspection] |
-| Instruction Memory | Holds 2^8 words, First 10 addresses are populated with dummy data, Returns the instruction at a given address | [Test case, waveform, calculation, or inspection] |
-| PC | Passes the input as the output on the clock cycle | [Test case, waveform, calculation, or inspection] |
-| Mux | Decides which PC input to pass | [Test case, waveform, calculation, or inspection] |
-| Adder or Incrementer | Increments PC by 1 each cycle | [Test case, waveform, calculation, or inspection] |
-| Final IF Stage | Ties all 5 minor modules together into overall Instruction Fetch | [Test case, waveform, calculation, or inspection] |
+| Latch | Passes the data through on the clock cycle | Test case, waveform,  inspection |
+| Instruction Memory | Holds 2^8 words, First 10 addresses are populated with dummy data, Returns the instruction at a given address | Test case, waveform,  inspection |
+| PC | Passes the input as the output on the clock cycle | Test case, waveform,  inspection |
+| Mux | Decides which PC input to pass | Test case, waveform,  inspection |
+| Adder or Incrementer | Increments PC by 1 each cycle | Test case, waveform,  inspection |
+| Final IF Stage | Ties all 5 minor modules together into overall Instruction Fetch | Test case, waveform,  inspection |
 ## Implementation
 ### Source Code
 | File | Description |
