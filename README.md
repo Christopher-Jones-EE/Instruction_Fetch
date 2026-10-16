@@ -76,8 +76,8 @@ INFO: [USF-XSim-96] XSim completed. Design snapshot 'I_FETCHTB_behav' loaded.
 .
 ├── README.md
 ├── Images/
-│ ├── [timing-diagram-filename].png
-│ └── [testbench-screenshot-filename].png
+│ ├── Fetch_Timing_1.png
+│ └── Fetch_Timing_2.png
 ├── [Source-Files]
 └── [Testbench-Files]
 ```
